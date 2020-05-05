@@ -1,5 +1,5 @@
 import React from 'react'
-import { Link, animateScroll as scroll } from "react-scroll";
+import { Link } from "react-scroll";
 
 const Navbar = () => {
   const svgString = `<svg  viewBox="15 45 300 240" version="1.1" xmlns="http://www.w3.org/2000/svg">
