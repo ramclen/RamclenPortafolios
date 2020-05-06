@@ -24,7 +24,7 @@ const Projects = () => {
         <ProjectCard
           name="Video Visualizer"
           class="npl"
-          img="./img/shopping-list.png"
+          img="./img/video-searcher.png"
           description="Video searcher using Youtube API. Developed using React "
           href="https://github.com/ramclen/video-searcher"
         />
