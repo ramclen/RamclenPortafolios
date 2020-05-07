@@ -2,7 +2,6 @@ import React from 'react'
 
 const ProjectCard = (props) => {
   const renderButtons = () => {
-    let className = "col-2 offset-3"
     if (props.demoLink) {
       return (
         <div className="row">
