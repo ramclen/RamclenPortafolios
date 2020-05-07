@@ -61,6 +61,19 @@ body {
   border: 3px solid #f8f9fa;
 }
 
+.project-buttons {
+  background-color: #ffffff;
+  border-color: #ffffff;
+}
+
+.project-buttons:hover {
+  text-decoration: none;
+}
+
+.project-buttons i {
+  font-size: 35px;
+}
+
 #skills {
   background-color: #aeedf1;
 }
