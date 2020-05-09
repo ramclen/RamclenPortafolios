@@ -42,6 +42,12 @@ export const projects = [
     description: "Snake game made using Vanilla JavaScript",
     demoLink: `${demoBaseURL}/snake`,
     codeLink: `${codeBaseURL}/snake`
+  }, {
+    name: "Tetris game",
+    img: "./img/tetris.png",
+    description: "Tetris game made using Vanilla JavaScript",
+    demoLink: `${demoBaseURL}/Tetris`,
+    codeLink: `${codeBaseURL}/Tetris  `
   }
 
 ]
