@@ -7,10 +7,11 @@ cache:
 script:
   - npm run build
 deploy:
+  target_branch: master
   provider: pages
   skip_cleanup: true
   github_token: $GITHUB_TOKEN  
   local_dir: build
   overwrite: true
   on:
-    branch: master
+    branch: develop
