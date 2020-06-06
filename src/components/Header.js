@@ -26,7 +26,7 @@ const Header = () => {
               />
               <Icon
                 icon="mail"
-                link="mailto:cristopher.correo@gmail.com"
+                link="mailto:cristopher.lopezsantana@gmail.com"
               />
               <Icon
                 icon="cv"
