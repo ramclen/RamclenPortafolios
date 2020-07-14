@@ -2,10 +2,23 @@ const codeBaseURL = "https://github.com/ramclen"
 const demoBaseURL = "https://ramclen.best"
 export const projects = [
   {
+    name: "Water Tracker App",
+    img: "./img/water-tracker-app.png",
+    description: "Water Tracker helps you to record your water consumptions in the day. Developed using React and AWS",
+    codeLink: `${codeBaseURL}/water-tracker-app`,
+    demoLink: `${demoBaseURL}/water-tracker-app`
+  },
+  {
+    name: "Supermarket Kata",
+    img: "./img/supermarket-kata.png",
+    description: "Supermarket Kata is an small implementation of supermaket kata using React following BDD",
+    codeLink: `${codeBaseURL}/supermarket-kata`,
+    demoLink: `${demoBaseURL}/supermarket-kata`,
+  },
+  {
     name: "Streaming Video App",
     img: "./img/streamblog.png",
     description: "Streaming Video App that streams your own streaming using a RTMP server, and allows you to create, edit or delete your streams. Developed using React",
-
     codeLink: `${codeBaseURL}/video-streamer`
   },
   {
@@ -42,7 +55,8 @@ export const projects = [
     description: "Snake game made using Vanilla JavaScript",
     demoLink: `${demoBaseURL}/snake`,
     codeLink: `${codeBaseURL}/snake`
-  }, {
+  },
+  {
     name: "Tetris game",
     img: "./img/tetris.png",
     description: "Tetris game made using Vanilla JavaScript",
