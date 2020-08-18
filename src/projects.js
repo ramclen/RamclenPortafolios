@@ -26,6 +26,13 @@ export const projects = [
     demoLink: `${demoBaseURL}/anime-searcher`,
   },
   {
+    name: 'Video Visualizer',
+    img: './img/video-searcher.png',
+    description: 'Video searcher using Youtube API. Developed using React ',
+    demoLink: `${demoBaseURL}/video-searcher`,
+    codeLink: `${codeBaseURL}/video-searcher`,
+  },
+  {
     name: 'Streaming Video App',
     img: './img/streamblog.png',
     description:
@@ -39,13 +46,6 @@ export const projects = [
       'Image searcher show you different pictures when user types a hint in the search bar. Developed using React and Unsplash API ',
     demoLink: `${demoBaseURL}/Image-Searcher`,
     codeLink: `${codeBaseURL}/Image-Searcher`,
-  },
-  {
-    name: 'Video Visualizer',
-    img: './img/video-searcher.png',
-    description: 'Video searcher using Youtube API. Developed using React ',
-
-    codeLink: `${codeBaseURL}/video-searcher`,
   },
   {
     name: 'Shopping Cart',
