@@ -1,6 +1,6 @@
-import React from 'react'
-import Navbar from './Navbar'
-import Icon from './Icon'
+import React from "react";
+import Navbar from "./Navbar";
+import Icon from "./Icon";
 
 const Header = () => {
   return (
@@ -16,32 +16,27 @@ const Header = () => {
                 icon="linkedin"
                 link="https://www.linkedin.com/in/cristopherlopez"
               />
-              <Icon
-                icon="github"
-                link="https://github.com/ramclen"
-              />
-              <Icon
-                icon="dev"
-                link="https://dev.to/ramclen"
-              />
+              <Icon icon="github" link="https://github.com/ramclen" />
+              <Icon icon="dev" link="https://dev.to/ramclen" />
               <Icon
                 icon="mail"
                 link="mailto:cristopher.lopezsantana@gmail.com"
               />
-              <Icon
-                icon="cv"
-                link="https://ramclen.best/about-me"
-              />
+              <Icon icon="cv" link="https://ramclen.xyz/about-me" />
             </div>
           </div>
           <div id="photo" className="col-5 text-center mx-auto">
-            <img id="yo" src="./img/yo.png" className="img-fluid z-depth-1 rounded-circle"
-              alt="Me" />
+            <img
+              id="yo"
+              src="./img/yo.png"
+              className="img-fluid z-depth-1 rounded-circle"
+              alt="Me"
+            />
           </div>
         </div>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default Header
+export default Header;
